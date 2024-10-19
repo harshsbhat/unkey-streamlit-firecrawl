@@ -37,7 +37,7 @@ def check_unkey_rate_limit(ip_address):
         "namespace": "firecrawl.streamlit",
         "identifier": ip_address,
         "limit": 3,
-        "duration": 180000, 
+        "duration": 180000,
         "cost": 1,
     }
     headers = {
