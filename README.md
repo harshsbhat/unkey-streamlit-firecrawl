@@ -20,7 +20,9 @@ This app is rate limited using Unkey. So you can only make 3 requests per 3 minu
 
 3. Go to settings/root-keys and create a root key with Ratelimit permissions
 
-4. Add it in the .env file `UNKEY_ROOT_KEY`
+4. You can follow this link to create the root key with ratelimit permissions [https://app.unkey.com/settings/root-keys/new?permissions=ratelimit.*.create_namespace,ratelimit.*.read_namespace,ratelimit.*.limit,ratelimit.*.update_namespace,ratelimit.*.delete_namespace](https://app.unkey.com/settings/root-keys/new?permissions=ratelimit.*.create_namespace,ratelimit.*.read_namespace,ratelimit.*.limit,ratelimit.*.update_namespace,ratelimit.*.delete_namespace)
+
+5. Add it in the .env file `UNKEY_ROOT_KEY`
 
 
 ## Quickstart
